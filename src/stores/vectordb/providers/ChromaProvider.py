@@ -29,3 +29,8 @@ class ChromaProvider(VectorDBInterface):
         if self.vectorstore is None:
             raise ValueError("Collection not created. Call create_collection() first.")
         return self.vectorstore.similarity_search(query, k=k)
+
+    def search_with_scores(self, query: str, k: int = 4):
+        if self.vectorstore is None:
+            raise ValueError("Collection not created. Call create_collection() first.")
+        return self.vectorstore.similarity_search_with_relevance_scores(query, k=k)

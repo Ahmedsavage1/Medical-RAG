@@ -18,3 +18,7 @@ class VectorDBInterface(ABC):
     @abstractmethod
     def search(self, query: str, k: int):
         pass
+
+    @abstractmethod
+    def search_with_scores(self, query: str, k: int):
+        pass

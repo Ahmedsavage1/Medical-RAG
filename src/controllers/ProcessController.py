@@ -94,6 +94,11 @@ class ProcessController:
             embedding_function=self.embedding_model,
             distance_method="cosine"
         )
+
+        existing = self.vectordb.vectorstore.get()
+        if existing["ids"]:
+            self.vectordb.vectorstore.delete(ids=existing["ids"])
+
         self.vectordb.insert_documents(self.chunks)
 
     def format_docs(self, docs) -> str:

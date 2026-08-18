@@ -1,0 +1,17 @@
+EVAL_QUESTIONS = [
+    "What is the target blood pressure for adults under 80 without diabetes?",
+    "What is the target blood pressure for adults aged 80 and over?",
+    "What is the target blood pressure for people with type 2 diabetes?",
+    "What is the target blood pressure for people with cardiovascular disease?",
+    "How is stage 1 hypertension defined?",
+    "How is stage 2 hypertension defined?",
+    "What is severe hypertension?",
+    "What is ambulatory blood pressure monitoring (ABPM) used for?",
+    "When should home blood pressure monitoring (HBPM) be offered?",
+    "What lifestyle advice should be given to people with hypertension?",
+    "What is the first-line antihypertensive treatment for people under 55?",
+    "What is the first-line antihypertensive treatment for people over 55 or of African/Caribbean origin?",
+    "How often should blood pressure be reviewed after starting treatment?",
+    "What are the recommendations for diagnosing hypertension in pregnancy?",
+    "What is the recommended treatment for a broken leg?",
+]

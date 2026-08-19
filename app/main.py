@@ -14,6 +14,8 @@ from app.models import User
 from app.auth import hash_password, verify_password, create_access_token, decode_access_token
 from controllers.ProcessController import ProcessController
 
+Base.metadata.create_all(bind=engine)
+
 load_dotenv()
 
 from pathlib import Path

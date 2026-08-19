@@ -1,0 +1,7 @@
+﻿.env
+app.db
+chroma_db/
+node_modules/
+__pycache__/
+*.pyc
+frontend/node_modules/
